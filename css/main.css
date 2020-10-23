@@ -30,6 +30,12 @@ h2 {
   color: rgba(255, 255, 255, .7);
 }
 
+h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.125rem;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr;
@@ -117,6 +123,14 @@ p {
     justify-content: space-between;
     padding: 0;
     padding-bottom: 6vmin;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  h1 {
+    padding-top: 6vmin;
   }
 
 }
